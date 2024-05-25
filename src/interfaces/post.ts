@@ -1,6 +1,7 @@
 import { type Author } from "./author";
 
 export type Post = {
+  published: boolean;
   slug: string;
   title: string;
   date: string;

@@ -1,5 +1,5 @@
 ---
-published: false
+published: "false"
 title: "React Philosophies"
 excerpt: "Writing clean, maintainable, and efficient React components is crucial for the success of any React project. This guide outlines the best practices for creating React components."
 coverImage: "/assets/blog/preview/cover.jpg"
