@@ -16,3 +16,52 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown pre {
+  overflow-x: auto;
+  padding: 1rem 0;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.markdown pre [data-line] {
+  padding: 0 1rem;
+}
+
+.markdown blockquote {
+  @apply pl-6 pt-3 pb-3 pr-3;
+  position: relative;
+  background-color: azure;
+}
+
+.markdown blockquote:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: darkslategray;
+  width: 5px;
+  height: 100%;
+  /* border-radius: 30px; */
+}
+
+.markdown a {
+  text-decoration: underline;
+}
+
+.markdown ul code,
+.markdown h2 code,
+.markdown h3 code,
+.markdown h4 code,
+.markdown p code {
+  @apply bg-teal-100 rounded px-2 py-1 text-teal-800;
+}
+
+.markdown ul {
+  @apply list-inside list-disc;
+}
+
+.markdown ul li {
+  @apply pl-2;
+}
